@@ -21,6 +21,4 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1  # Replace 'your-region' with your AWS region
 
-      - name: Deploy to S3
-        run: |
-          aws s3 sync . s3://portfolio-abdul --delete  # Replace 'your-bucket-name' with your bucket name
+    
