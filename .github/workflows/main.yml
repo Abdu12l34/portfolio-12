@@ -25,4 +25,4 @@ jobs:
           aws s3 sync . s3://portfolio-abdull --delete --exclude ".git/*"
           echo "Sync completed"
 
-      -
+
